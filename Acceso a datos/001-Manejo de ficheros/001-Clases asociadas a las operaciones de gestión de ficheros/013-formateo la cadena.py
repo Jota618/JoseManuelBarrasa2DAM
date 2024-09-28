@@ -9,4 +9,3 @@ for archivo in lista:
     datosexif = imagen._getexif()
     cadena = datosexif[306].replace(":","-").replace(" ","_")
     print(cadena)
-    os.rename('fotos/'+archivo,'fotos/'+cadena+".jpg")

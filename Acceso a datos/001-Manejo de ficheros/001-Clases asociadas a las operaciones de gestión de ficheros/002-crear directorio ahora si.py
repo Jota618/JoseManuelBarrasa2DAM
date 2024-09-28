@@ -1,6 +1,6 @@
 import os
 
-os.makedirs("micarpeta")
+os.makedirs("micarpeta") #Creamos una carpeta
 
 
 
