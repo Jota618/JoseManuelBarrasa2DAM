@@ -1,4 +1,4 @@
 onmessage = function(){
-    console.log("ok hola");
+    console.log("Empezamos");
     postMessage("ok vuelvo al proceso principal")
 }
